@@ -21,6 +21,7 @@
 		5FDF23E1196D5A2700038E67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDF23C3196D5A2700038E67 /* UIKit.framework */; };
 		5FDF23E9196D5A2700038E67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF23E7196D5A2700038E67 /* InfoPlist.strings */; };
 		5FDF23EB196D5A2700038E67 /* AjRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF23EA196D5A2700038E67 /* AjRecordTests.m */; };
+		5FDF23F7196D5C2E00038E67 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF23F6196D5C2E00038E67 /* Record.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5FDF23E6196D5A2700038E67 /* AjRecordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AjRecordTests-Info.plist"; sourceTree = "<group>"; };
 		5FDF23E8196D5A2700038E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FDF23EA196D5A2700038E67 /* AjRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AjRecordTests.m; sourceTree = "<group>"; };
+		5FDF23F5196D5C2E00038E67 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		5FDF23F6196D5C2E00038E67 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		5FDF23C5196D5A2700038E67 /* AjRecord */ = {
 			isa = PBXGroup;
 			children = (
+				5FDF23F4196D5BA200038E67 /* record */,
 				5FDF23CE196D5A2700038E67 /* AppDelegate.h */,
 				5FDF23CF196D5A2700038E67 /* AppDelegate.m */,
 				5FDF23D1196D5A2700038E67 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				5FDF23E7196D5A2700038E67 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FDF23F4196D5BA200038E67 /* record */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF23F5196D5C2E00038E67 /* Record.h */,
+				5FDF23F6196D5C2E00038E67 /* Record.m */,
+			);
+			path = record;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			files = (
 				5FDF23D6196D5A2700038E67 /* ViewController.m in Sources */,
 				5FDF23D0196D5A2700038E67 /* AppDelegate.m in Sources */,
+				5FDF23F7196D5C2E00038E67 /* Record.m in Sources */,
 				5FDF23CC196D5A2700038E67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
